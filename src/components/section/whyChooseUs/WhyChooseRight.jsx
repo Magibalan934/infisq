@@ -1,16 +1,15 @@
 export default function WhyChooseUsRight() {
   return (
     // why choose us right image section
-    <div className="relative">
-      <div className=" overflow-hidden ">
+    <div className="w-[90%] h-[90%]relative top-0 left-0">
+      <div className=" overflow-hidden flex-center">
         <img
           src="Why_choose.png"
           alt="Why Choose Us"
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-contain"
         />
       </div>
 
-      <div className="absolute -bottom-6 -right-6 w-72 h-72 bg-purple-200 rounded-full blur-3xl -z-10" />
     </div>
   );
 }
