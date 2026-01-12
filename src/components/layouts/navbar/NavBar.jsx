@@ -4,7 +4,7 @@ import NavBarRight from "./NavBarRight";
 export default function NavBar() {
   return (
     // nav bar container
-    <nav className="bg-white h-20 w-[90%] mx-auto flex justify-between px-10 items-center rounded-xl shadow-primary">
+    <nav className="bg-white h-20 w-[80%] mx-auto flex justify-between px-10 items-center rounded-xl shadow-primary fixed z-100">
       <NavBarLeft />
       <NavBarRight />
     </nav>
