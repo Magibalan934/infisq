@@ -3,23 +3,9 @@ import NavBarRight from "./NavBarRight";
 
 export default function NavBar() {
   return (
-    // nav bar container
-    <nav className="bg-white h-20 w-[80%] mx-auto flex justify-between px-10 items-center rounded-xl shadow-primary fixed z-100">
+    <nav className="h-20 w-full max-w-350 bg-white  fixed z-100 flex justify-between px-3 md:w-[90%] mx-auto  md:px-10 items-center md:rounded-xl shadow-primary">
       <NavBarLeft />
       <NavBarRight />
     </nav>
   );
 }
-
-
-
-
-// position: absolute;
-// width: 1257px;
-// height: 86px;
-// left: 90px;
-// top: 29px;
-
-// background: #FFFFFF;
-// box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-// border-radius: 19px;
