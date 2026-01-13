@@ -2,27 +2,16 @@
 @import "tailwindcss";
 
 @theme {
-  /* font family */
-
   --font-poppins: "Poppins", sans-serif;
-
-  /* colors */
-
   --color-primary: #f90598;
   --color-secondary: #3a014e;
   --color-black: black;
   --color-white: white;
-
-  /*  linear gradient */
-
   --background-image-gradient-primary: linear-gradient(
     180deg,
     var(--color-secondary) 0%,
     var(--color-primary) 100%
   );
-
-  /* shadow */
-
   --shadow-primary: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -42,29 +31,26 @@
 }
 
 @layer utilities {
-  /* flex */
   .flex-center {
     @apply flex items-center justify-center;
   }
 
-  /* text */
   .text-heading-custom {
-    @apply text-3xl sm:text-4xl lg:text-5xl font-bold;
+    @apply text-2xl sm:text-4xl lg:text-5xl font-bold;
   }
 
   .text-sub-heading-custom {
-    @apply text-2xl sm:text-3xl lg:text-4xl font-semibold;
+    @apply text-xl sm:text-3xl lg:text-4xl font-semibold;
   }
 
   .text-base-custom {
-    @apply text-sm sm:text-base font-normal;
+    @apply text-sm md:text-base lg:text-xl font-normal;
   }
 
   .text-small-custom {
     @apply text-sm font-normal;
   }
 
-  /* nav item active */
   .navItem-active {
     color: var(--color-primary);
   }
