@@ -4,7 +4,7 @@ export default function HeroRight() {
       <img
         src="/hero-banner.png"
         alt="banner.png"
-        className="object-cover w-[80%]"
+        className="object-contain w-full"
       />
     </div>
   );

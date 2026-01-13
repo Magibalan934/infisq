@@ -2,10 +2,9 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBarLeft() {
   return (
-    // nav bar left logo
-    <div className="logo">
+    <div className="logo w-50  md:w-60 lg:75">
       <NavLink to="/">
-        <img src="logo.png" alt="logo" />
+        <img src="logo.png" alt="logo" className="h-full w-full object-contain" />
       </NavLink>
     </div>
   );
