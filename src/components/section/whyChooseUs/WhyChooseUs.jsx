@@ -4,8 +4,8 @@ import WhyChooseUsRight from "./WhyChooseRight";
 
 export default function WhyChooseUs() {
   return (
-    <div className="w-full py-16 bg-[url(hero-bg.png)]">
-      <div className="w-[75%] mx-auto">
+    <div className="w-full h-auto py-15 bg-[url(hero-bg.png)] bg-center bg-no-repeat bg-cover">
+      <div className="w-[90%] max-w-350  mx-auto">
         <h2 className="text-sub-heading-custom text-center mb-12">
           Why Choose us?
         </h2>
